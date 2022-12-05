@@ -1,0 +1,99 @@
+body {
+  margin: 150px 80px;
+}
+
+/* area para conteúdo da home */
+.conteiner {
+  gap: 80px;
+  display: flex;
+  flex-direction: column;
+}
+.conteiner a {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+}
+
+.conteiner a:hover {
+  text-decoration: underline;
+}
+
+.slider {
+  display: flex;
+  overflow: hidden;
+  background-color: rgba(207, 203, 203, 0.116);
+  width: 100%;
+  max-height: 300px;
+  border-radius: 10px;
+}
+
+.item {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  gap: 100px;
+}
+.item img {
+  padding-top: 10px;
+  max-width: 250px;
+  max-height: 250px;
+}
+.item ul > li {
+  padding-top: 12px;
+}
+#if {
+  color: green;
+}
+.equipe {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.fotoequipe {
+  width: 150px;
+  height: 180px;
+  border-radius: 50%;
+}
+.siga {
+  gap: 25px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+.content {
+  padding: 0px 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: auto;
+}
+
+.txt-home {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding: 20px;
+
+  background-color: rgba(128, 128, 128, 0.116);
+
+  border: solid 1px gray;
+  border-radius: 10px;
+}
+.txt-home img {
+  max-width: 400px;
+  border-radius: 10px;
+}
+/* fim do conteúdo da home */
+
+/* conteudo de tutoriais e aulas */
+.card-img-top {
+  width: 50%;
+}
+.video {
+  max-width: 100%;
+  height: 200px;
+}

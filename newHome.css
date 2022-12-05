@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.90);
+    height: auto;
+}
+
+.fluxslider {
+    max-height: 360px;
+    max-width: 1920px;
+    height: 100%;
+    width: 100%;
+    box-shadow: 0px 5px 12px 3px rgb(1, 1, 51);
+    display: block;
+}
+.surface{
+    opacity: 0.7;
+}
+.image1{
+    height: 360px;
+    top: 0;
+    left: 0;
+    /* position: absolute; */
+    background-size: cover;
+    background-image: url(./new/1.jpg);
+}
+
+.image2{
+    height: 360px;
+    top: 0;
+    left: 0;
+    /* position: absolute; */
+    background-size: cover;
+    background-image: url(./new/2.jpg);
+    /* visibility: hidden; */
+}
+
+.main{
+    padding-right: 0px;
+    margin-top: 6px;
+    max-width: 1920px;
+    max-height: max-content;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.90);
+    box-shadow: 0px 5px 12px 5px rgb(1, 1, 51);
+}
+.conteudo_cards{
+    display: flex;
+    overflow: hidden;
+    margin-left: 25px;
+    
+}
+.owl-carousel{
+    padding-top: 20px;
+    justify-items: center;
+}
+.card{
+    max-width: 20rem;
+    background-color: white;
+    border-radius: 6px;
+    border: solid 2px rgba(0, 0, 0, 0.356);
+    font-size: 19px;
+    font-weight: 500;
+}
+.card img{
+    height: 200px;
+    width: 300px;
+}
+.card:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 8px 2px white;
+}
+
+.cardheader{
+    padding: 8px;
+    border-bottom: solid 1.5px black;
+}
+.cardbody{
+    padding: 0px 8px 8px 8px;
+    border-top: solid 1.5px black;
+}
+
+.text_cards{
+    padding: 25px 0px 25px 100px;
+    gap: 50px;
+    display: none;
+
+}
+.txt_card{
+    width: 80%;
+    max-height: max-content;
+    border: solid 2px rgba(0, 0, 0, 0.356);
+    border-radius: 6px;
+    padding: 0px 8px 8px 12px;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 26px;
+    background-color: white;
+}

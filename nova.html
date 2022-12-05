@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="newHome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <div class="content">
+            <div class="image1"></div>
+            <!-- <div class="slider">
+                <div class="fluxslider">]
+                    <div class="surface">
+                        
+                        <div class="images">
+                            
+                            <div class="image2"></div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <div class="main">
+                <div class="conteudo_cards"></div>
+                    <div class="owl-carousel owl-theme">
+                        <div class="card" id="card1">
+                            <div class="cardheader">Projeto</div>
+                            <div class="cardbody">
+                                <h3 class="card-title">O Grupo Autobots:</h3>
+                                <img class="cardimg" src="./img/sem fundo/logo_autobots-removebg-preview.png">
+                            </div>
+                        </div>
+                        <div class="card" id="card2">
+                            <div class="cardheader">Propósito</div>
+                            <div class="cardbody">
+                                <h3 class="card-title">Nossa Missão e Objetivo:</h3>
+                                <img class="cardimg" src="./fotos/foto autobots.png">
+                            </div>
+                        </div>
+                        <div class="card" id="card3">
+                            <div class="cardheader">Equipamentos</div>
+                            <div class="cardbody">
+                                <h3 class="card-title">Nossa Estrutura:</h3>
+                                <img class="cardimg" src="./img/estrutura.png">
+                            </div>
+                        </div>
+                        <div class="card" id="card3">
+                            <div class="cardheader">Emenda</div>
+                            <div class="cardbody">
+                                <h3 class="card-title">Emenda Liberta Minas:</h3>
+                                <img class="cardimg" src="./img/sem fundo/logo_libertaMinas-removebg-preview.png" alt="logo_libertaMinas">
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                <div class="text_cards" id="txt1">
+                    <div class="txt_card">
+                        <p>Iniciado no ano de 2017 e coordenado desde então pelo professor e coordenador do curso de Sistemas de Informação no Instituto Federal do Sul de Minas Gerais Matheus Eloy Franco;
+                            <br><br>
+                            Tem como proposta Desenvolver atividades de iniciação a automação utilizando a plataforma de prototipagem Arduino e de introdução a robótica utilizando o kit Lego MindStorms;
+                            <br><br>
+                            Como elas auxiliam a comunidade?
+                            As atividades desenvolvidas permitiram o grupo a participar de projetos de inovação do próprio campus, auxiliando na automação de processos junto a área de agropecuária. Além disto o mesmo ministra cursos acerca dos temas para a comunidade interna do campus e externa, difundindo conceitos importantes como o pensamento computacional e a cultura maker.
+                            <br><br>
+                            Para os alunos envolvidos a participação neste projeto é importante pois os permite a trabalhar conceitos que não fazem parte suas matrizes curriculares, além disto segundo um levantamento realizado com os mesmo, a participação no grupo os motiva a continuar no curso e na área de computação, além de poderem visualizar de forma prática a aplicação de alguns conceitos abstratos.
+                        </p>
+                    </div>
+                </div>
+                <div class="text_cards" id="txt2">
+                    <div class="txt_card">
+                        <p>
+                            <h5>O projeto Robôs para Ensino, tem como Missão:</h5>
+                
+                    <ul>
+                  <li>
+                    Mostrar a importância da robótica como ferramenta auxiliar no aprendizado dos alunos;
+                  </li>
+                  <li>
+                    E que eles podem ser criadores de novas tecnologias inovadoras.
+                  </li>
+                 </ul>
+                 Nosso objetivo é expor essas informações através de uma pagina web de maneira acessível ao Liberta Minas
+                    que fomenta o projeto, para que possa ver o investimento que está sendo feito.
+                    <br>
+                    <h5> Dentre nossas atividades estão:</h5>
+                    <ul>
+                  <li>
+                    Estudar conceitos de tópicos relacionados a robótica e automação
+                  </li>
+                  <li>
+                    Testar sensores e componentes para automação
+                  </li>
+                  <li>
+                    Implementar diferentes protótipos de automação baseados em Arduino
+                  </li>
+                  <li>
+                    Implementar modelos de robôs móveis baseados no kit Lego
+                  </li>
+                  <li>Desenvolver e aplicar cursos FIC para alunos internos e externos à instituição.</li>
+                    </ul>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="text_cards" id="txt3">
+                    <div class="txt_card">
+                        <p>
+                            Temos à disposição para uso nos projetos diversos equipamentos e ferramentas.<br>
+                             tais como:
+                            <ul>
+                            <li>Impressoras 3D;</li>
+                            <li>Notebooks para pesquisa e desenvolvimento das atividades;</li>
+                            <li>Diversas placas e componentes eletrônicos relacionádos à robótica</li>
+                            <li>Laboratório de pesquisa exclusivo para encontros dos grupo</li>
+                            <li>Diversos robos programáveis e modulares da Lego - MindStorms</li>
+                            </ul>
+                            </p>
+                    </div>
+                </div>
+            </main>
+            <div class="footer">
+
+            </footer>
+        </div>
+<script>
+        var t1 = false,t2 = false,t3 = false;
+        
+        $("#card1").click(function mouseclick(){
+            if(t2==true){
+                $("#txt2").slideToggle('hide');
+                t2=false;
+            }
+            if(t3==true){
+                $("#txt3").slideToggle('slow');
+                t3=false;
+            }
+       
+        t1=true;
+        $("#txt1").slideToggle('slow');
+        
+})
+        
+    $("#card2").click(function(){
+            if(t1==true){
+                $("#txt1").slideToggle('slow');
+                t1=false;
+            }
+            if(t3==true){
+                $("#txt3").slideToggle('slow');
+                t3=false;
+            }
+       
+        t2=true;
+        $("#txt2").slideToggle('slow');
+        })
+
+        $("#card3").click(function(){
+            if(t1==true){
+                $("#txt1").slideToggle('slow');
+                t1=false;
+            }
+            if(t2==true){
+                $("#txt2").slideToggle('slow');
+                t2=false;
+            }
+       
+        t3=true;
+        $("#txt3").slideToggle('slow');
+        })
+</script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+          <script>
+            $(document).ready(function () {
+              $(".owl-carousel").owlCarousel();
+            });
+            var owl = $('.owl-carousel');
+            owl.owlCarousel({
+              loop: true, //deixa ele rodando eternament
+
+              autoplayHoverPause: true, // no hover ele para de rodar
+              responsive: {
+                0: {
+                  items: 1 // 2 img em telas até 767px
+                },
+                768: {
+                  items: 2 // 3 img em telas maiores que 768px
+                },
+                992: {
+                  items: 3 // 5 img em telas maiores que 992px
+                }
+              }
+            });
+          </script>
+          <!-- <script>
+            window.flux = {
+	        version: '1.4.4'
+            };
+            (function($) {
+	        flux.transitions.dissolve = function(fluxslider, opts) {
+		return new flux.transition(fluxslider, $.extend({
+			setup: function() {
+				var img = $('<div class="image"></div>').css({
+					width: '100%',
+					height: '100%',
+					'background-image': this.slider.image1.css('background-image')	
+				}).css3({
+					'transition-duration': '600ms',
+					'transition-timing-function': 'ease-in',
+					'transition-property': 'opacity'
+				});
+				
+				this.slider.image1.append(img);
+			},
+			execute: function() {
+				var _this = this,
+					img = this.slider.image1.find('div.image');
+
+				// Get notified when the last transition has completed
+				$(img).transitionEnd(function(){
+					_this.finished();
+				});
+
+				setTimeout(function(){
+					$(img).css({
+						'opacity': '0.0'
+					});
+				}, 50);
+			}
+		}, opts));
+	};
+})(window.jQuery || window.Zepto);
+          </script> -->
+</body>
+</html>
+
+    
